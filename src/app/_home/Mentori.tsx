@@ -2,10 +2,11 @@ import React from "react";
 import {SectionHead} from "../_componets/Texts";
 import Image from "next/image";
 import {FaQuoteLeft, FaQuoteRight} from "react-icons/fa6";
+import Link from "next/link";
 
 function Mentori() {
 	return (
-		<div className="my-36">
+		<div className="my-36 p-5">
 			<SectionHead>Mentori</SectionHead>
 			<div className="flex my-10 flex-wrap">
 				<div className="w-full md:w-1/3">
@@ -31,6 +32,13 @@ function Mentori() {
 						</div>
 						<FaQuoteLeft size={25} className="ms-auto min-w-10" />
 					</div>
+				</div>
+				<div className="ms-auto">
+					<Link
+						href="/mentori/adrian-balog"
+						className="p-3 underline hover:bg-gray-600 hover:text-gray-200 duration-200 ">
+						Citește mai multe despre mine
+					</Link>
 				</div>
 			</div>
 		</div>

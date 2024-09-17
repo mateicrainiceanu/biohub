@@ -14,7 +14,7 @@ function Mission() {
 	];
 
 	return (
-		<div className="w-full my-20">
+		<div className="w-full my-20 p-10 bg-green-200">
 			<SectionHead>Misiune și valori</SectionHead>
 			<div className="flex flex-row flex-wrap">
 				{items.map(({txt, icon}, i) => (

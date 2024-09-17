@@ -19,10 +19,8 @@ export default function RootLayout({
 	return (
 		<html lang="ro">
 			<body className={"overscroll-none " + roboto.className}>
-				<div className="m-12">
-					<Navbar />
-					<main className="p-5 min-h-screen">{children}</main>
-				</div>
+				<Navbar />
+				<main className="min-h-screen">{children}</main>
 				<Footer></Footer>
 			</body>
 		</html>

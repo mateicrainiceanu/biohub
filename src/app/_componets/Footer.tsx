@@ -15,7 +15,7 @@ function Footer() {
 					<Link className="text-sm underline" href="/l/confidentialitate">
 						Politica de confidențialitate
 					</Link>
-					<Link className="text-sm underline" href="/l/tnc">
+					<Link className="text-sm underline" href="/l/gdpr">
 						Legislație GDPR
 					</Link>
 				</div>
