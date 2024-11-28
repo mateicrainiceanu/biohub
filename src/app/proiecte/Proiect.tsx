@@ -5,11 +5,11 @@ import {Project} from "./data";
 function Proiect({project}: {project: Project}) {
 	return (
 		<div
-			className="p-5 hover:p-0 duration-200 select-none"
+			className="p-5 hover:p-1 duration-200 select-none"
 			onClick={() => {
 				window.location.href = "/proiecte/" + project.short;
 			}}>
-			<div className="max-w-5xl mx-auto flex">
+			<div className="max-w-5xl mx-auto flex flex-wrap">
 				<div className="w-full md:w-2/3">
 					<h3 className="font-bold my-3">{project.title}</h3>
 					{project.description.split("\n").map((text, i) => (
@@ -22,6 +22,7 @@ function Proiect({project}: {project: Project}) {
 					<img src={project.imgsrc} alt="din activitate" className="w-full" />
 				</div>
 			</div>
+
 			<hr className="border-black my-10" />
 		</div>
 	);
