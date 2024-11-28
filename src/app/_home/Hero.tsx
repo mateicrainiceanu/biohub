@@ -6,9 +6,9 @@ function Hero() {
 	return (
 		<div className="p-12">
 			<div className="flex w-full">
-				<div className="w-1/2 py-32 h-full">
+				<div className="w-full md:w-1/2 py-32 h-full">
 					<BigTitle>Welcome to BioHub!</BigTitle>
-					<p className="my-5">Locul în care edudcația întălnește creativitatea și distracția.</p>
+					<p className="my-5">Locul în care edudcația întălnește creativitatea și inovația.</p>
 					<AppBtn txt="Vezi proiectele noastre" link="/proiecte" />
 				</div>
 			</div>
